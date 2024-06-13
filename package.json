@@ -1,4 +1,5 @@
 {
+  "homepage": "https://arvin-coxcomb.github.io/portfolio-framer",
   "name": "starter",
   "private": true,
   "version": "0.0.0",
@@ -7,11 +8,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "gh-pages-build":"vite build --base=/portfolio-framer",
+    "gh-pages-deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "framer-motion": "^10.16.4",
+    "gh-pages": "^6.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.68.0"
