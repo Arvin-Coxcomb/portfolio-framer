@@ -57,7 +57,7 @@ export default function Hero() {
             Writer Content Creator Influencer
         </motion.div>
         <div className="imageContainer">
-            <img src={hero} alt="error in loading image"/>
+            <img src="./hero.png" alt="error in loading image"/>
         </div>
     </div>
   )
